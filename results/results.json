@@ -1,0 +1,1751 @@
+{
+  "headline": {
+    "raw_brier": 0.1226778032034632,
+    "platt_brier": 0.01755576840802317,
+    "isotonic_brier": 0.012007162161397883,
+    "raw_ece": 0.3034242424242424,
+    "platt_ece": 0.015164059935519317,
+    "isotonic_ece": 0.012735270557380772,
+    "brier_improvement_platt_pct": -85.6895314803554,
+    "brier_improvement_isotonic_pct": -90.21244116877133,
+    "ece_improvement_platt_pct": -95.00235715697455,
+    "ece_improvement_isotonic_pct": -95.80281705389429,
+    "n_snapshots": 231,
+    "n_markets": 60,
+    "headline_method": "isotonic",
+    "headline_text": "Market overconfidence exposed: raw Brier 0.1227 -> isotonic Brier 0.0120 (improvement -90.2%); raw ECE 0.303 -> recalibrated ECE 0.013",
+    "source": {
+      "source": "embedded_sample",
+      "path": "/Users/christianmacion/portfolio_v2/prediction-market-calibration/data/sample_markets.json",
+      "n_markets": 60
+    }
+  },
+  "n_snapshots": 231,
+  "n_markets": 60,
+  "source": {
+    "source": "embedded_sample",
+    "path": "/Users/christianmacion/portfolio_v2/prediction-market-calibration/data/sample_markets.json",
+    "n_markets": 60
+  },
+  "per_market": [
+    {
+      "id": "m001",
+      "question": "Will Microsoft close a major acquisition in Q4 2024?",
+      "outcome": false,
+      "final_pred": 0.3488,
+      "snapshots": [
+        [
+          0.3315,
+          false
+        ],
+        [
+          0.3571,
+          false
+        ],
+        [
+          0.3697,
+          false
+        ],
+        [
+          0.3168,
+          false
+        ],
+        [
+          0.3488,
+          false
+        ]
+      ],
+      "brier": 0.12166144,
+      "log_score": 0.4289384642938065
+    },
+    {
+      "id": "m002",
+      "question": "Will the VIX index exceed 30 at any point in Q1 2026?",
+      "outcome": false,
+      "final_pred": 0.4689,
+      "snapshots": [
+        [
+          0.4408,
+          false
+        ],
+        [
+          0.4166,
+          false
+        ],
+        [
+          0.4689,
+          false
+        ]
+      ],
+      "brier": 0.21986720999999998,
+      "log_score": 0.6328049515537836
+    },
+    {
+      "id": "m003",
+      "question": "Will a hurricane make US landfall in Q3 2025?",
+      "outcome": false,
+      "final_pred": 0.084,
+      "snapshots": [
+        [
+          0.0534,
+          false
+        ],
+        [
+          0.0774,
+          false
+        ],
+        [
+          0.084,
+          false
+        ]
+      ],
+      "brier": 0.007056000000000001,
+      "log_score": 0.08773891430800675
+    },
+    {
+      "id": "m004",
+      "question": "Will US retail sales exceed consensus estimate in Q3 2025?",
+      "outcome": true,
+      "final_pred": 0.5774,
+      "snapshots": [
+        [
+          0.5594,
+          true
+        ],
+        [
+          0.5765,
+          true
+        ],
+        [
+          0.5824,
+          true
+        ],
+        [
+          0.5774,
+          true
+        ]
+      ],
+      "brier": 0.17859076,
+      "log_score": 0.5492200117533023
+    },
+    {
+      "id": "m005",
+      "question": "Will Tesla's market cap exceed Apple's on Q1 2024?",
+      "outcome": true,
+      "final_pred": 0.4905,
+      "snapshots": [
+        [
+          0.5062,
+          true
+        ],
+        [
+          0.5282,
+          true
+        ],
+        [
+          0.4905,
+          true
+        ]
+      ],
+      "brier": 0.2595902500000001,
+      "log_score": 0.7123299999767193
+    },
+    {
+      "id": "m006",
+      "question": "Will Tesla deliver more than 500000 vehicles this quarter?",
+      "outcome": true,
+      "final_pred": 0.8498,
+      "snapshots": [
+        [
+          0.8954,
+          true
+        ],
+        [
+          0.8884,
+          true
+        ],
+        [
+          0.8401,
+          true
+        ],
+        [
+          0.8498,
+          true
+        ]
+      ],
+      "brier": 0.02256004,
+      "log_score": 0.16275425130142587
+    },
+    {
+      "id": "m007",
+      "question": "Will the housing price index rise more than 3% YoY in Q2 2025?",
+      "outcome": false,
+      "final_pred": 0.1938,
+      "snapshots": [
+        [
+          0.16,
+          false
+        ],
+        [
+          0.204,
+          false
+        ],
+        [
+          0.1689,
+          false
+        ],
+        [
+          0.1938,
+          false
+        ]
+      ],
+      "brier": 0.03755844,
+      "log_score": 0.2154234282990716
+    },
+    {
+      "id": "m008",
+      "question": "Will a major streaming service launch a price hike this year?",
+      "outcome": false,
+      "final_pred": 0.3616,
+      "snapshots": [
+        [
+          0.3976,
+          false
+        ],
+        [
+          0.388,
+          false
+        ],
+        [
+          0.3834,
+          false
+        ],
+        [
+          0.3616,
+          false
+        ]
+      ],
+      "brier": 0.13075456,
+      "log_score": 0.4487902328465379
+    },
+    {
+      "id": "m009",
+      "question": "Will a major pharmaceutical company announce positive Phase 3 results in Q2 2026?",
+      "outcome": false,
+      "final_pred": 0.2125,
+      "snapshots": [
+        [
+          0.1935,
+          false
+        ],
+        [
+          0.2546,
+          false
+        ],
+        [
+          0.2408,
+          false
+        ],
+        [
+          0.2125,
+          false
+        ]
+      ],
+      "brier": 0.045156249999999995,
+      "log_score": 0.23889190828234896
+    },
+    {
+      "id": "m010",
+      "question": "Will the 10Y Treasury yield be above 5% on Q1 2024?",
+      "outcome": false,
+      "final_pred": 0.3096,
+      "snapshots": [
+        [
+          0.2749,
+          false
+        ],
+        [
+          0.246,
+          false
+        ],
+        [
+          0.3096,
+          false
+        ]
+      ],
+      "brier": 0.09585215999999999,
+      "log_score": 0.37048413921291884
+    },
+    {
+      "id": "m011",
+      "question": "Will a major streaming service launch a price hike this year?",
+      "outcome": false,
+      "final_pred": 0.4917,
+      "snapshots": [
+        [
+          0.4682,
+          false
+        ],
+        [
+          0.4644,
+          false
+        ],
+        [
+          0.4917,
+          false
+        ],
+        [
+          0.4917,
+          false
+        ]
+      ],
+      "brier": 0.24176889000000001,
+      "log_score": 0.6766834545292802
+    },
+    {
+      "id": "m012",
+      "question": "Will Bitcoin close above $100000 on Q3 2025?",
+      "outcome": false,
+      "final_pred": 0.4369,
+      "snapshots": [
+        [
+          0.4538,
+          false
+        ],
+        [
+          0.3963,
+          false
+        ],
+        [
+          0.4031,
+          false
+        ],
+        [
+          0.4161,
+          false
+        ],
+        [
+          0.4369,
+          false
+        ]
+      ],
+      "brier": 0.19088161,
+      "log_score": 0.5742980467215644
+    },
+    {
+      "id": "m013",
+      "question": "Will Microsoft close a major acquisition in Q1 2026?",
+      "outcome": false,
+      "final_pred": 0.4868,
+      "snapshots": [
+        [
+          0.4296,
+          false
+        ],
+        [
+          0.4922,
+          false
+        ],
+        [
+          0.4834,
+          false
+        ],
+        [
+          0.5154,
+          false
+        ],
+        [
+          0.4868,
+          false
+        ]
+      ],
+      "brier": 0.23697424,
+      "log_score": 0.6670896462406557
+    },
+    {
+      "id": "m014",
+      "question": "Will Company X announce a major product launch by Q2 2024?",
+      "outcome": true,
+      "final_pred": 0.6667,
+      "snapshots": [
+        [
+          0.6588,
+          true
+        ],
+        [
+          0.6397,
+          true
+        ],
+        [
+          0.6197,
+          true
+        ],
+        [
+          0.6667,
+          true
+        ]
+      ],
+      "brier": 0.11108889000000002,
+      "log_score": 0.4054151093581228
+    },
+    {
+      "id": "m015",
+      "question": "Will Company X announce a major product launch by Q4 2025?",
+      "outcome": false,
+      "final_pred": 0.111,
+      "snapshots": [
+        [
+          0.0416,
+          false
+        ],
+        [
+          0.0936,
+          false
+        ],
+        [
+          0.111,
+          false
+        ]
+      ],
+      "brier": 0.012321,
+      "log_score": 0.11765804346823246
+    },
+    {
+      "id": "m016",
+      "question": "Will a major drone delivery company go public in Q2 2024?",
+      "outcome": true,
+      "final_pred": 0.5365,
+      "snapshots": [
+        [
+          0.5452,
+          true
+        ],
+        [
+          0.5477,
+          true
+        ],
+        [
+          0.5196,
+          true
+        ],
+        [
+          0.535,
+          true
+        ],
+        [
+          0.5365,
+          true
+        ]
+      ],
+      "brier": 0.21483225000000003,
+      "log_score": 0.6226887169113839
+    },
+    {
+      "id": "m017",
+      "question": "Will Ethereum successfully complete a major protocol upgrade by Q4 2025?",
+      "outcome": false,
+      "final_pred": 0.4506,
+      "snapshots": [
+        [
+          0.4595,
+          false
+        ],
+        [
+          0.4348,
+          false
+        ],
+        [
+          0.4634,
+          false
+        ],
+        [
+          0.4506,
+          false
+        ]
+      ],
+      "brier": 0.20304036,
+      "log_score": 0.5989285053209635
+    },
+    {
+      "id": "m018",
+      "question": "Will US retail sales exceed consensus estimate in Q3 2024?",
+      "outcome": false,
+      "final_pred": 0.1987,
+      "snapshots": [
+        [
+          0.2207,
+          false
+        ],
+        [
+          0.2183,
+          false
+        ],
+        [
+          0.1987,
+          false
+        ]
+      ],
+      "brier": 0.03948168999999999,
+      "log_score": 0.22151987019811217
+    },
+    {
+      "id": "m019",
+      "question": "Will a major drone delivery company go public in Q1 2024?",
+      "outcome": false,
+      "final_pred": 0.4022,
+      "snapshots": [
+        [
+          0.4346,
+          false
+        ],
+        [
+          0.4231,
+          false
+        ],
+        [
+          0.4022,
+          false
+        ]
+      ],
+      "brier": 0.16176484,
+      "log_score": 0.5144990291322996
+    },
+    {
+      "id": "m020",
+      "question": "Will a generic LLM model beat GPT-4 on a major benchmark in Q1 2025?",
+      "outcome": true,
+      "final_pred": 0.7417,
+      "snapshots": [
+        [
+          0.6958,
+          true
+        ],
+        [
+          0.7131,
+          true
+        ],
+        [
+          0.7417,
+          true
+        ]
+      ],
+      "brier": 0.06671888999999999,
+      "log_score": 0.2988104302396246
+    },
+    {
+      "id": "m021",
+      "question": "Will an autonomous taxi service operate commercially in 3+ cities in Q3 2025?",
+      "outcome": true,
+      "final_pred": 0.7589,
+      "snapshots": [
+        [
+          0.7573,
+          true
+        ],
+        [
+          0.7569,
+          true
+        ],
+        [
+          0.7492,
+          true
+        ],
+        [
+          0.7589,
+          true
+        ]
+      ],
+      "brier": 0.058129209999999994,
+      "log_score": 0.2758852625722699
+    },
+    {
+      "id": "m022",
+      "question": "Will a generic LLM model beat GPT-4 on a major benchmark in Q1 2026?",
+      "outcome": true,
+      "final_pred": 0.6814,
+      "snapshots": [
+        [
+          0.687,
+          true
+        ],
+        [
+          0.6917,
+          true
+        ],
+        [
+          0.6965,
+          true
+        ],
+        [
+          0.7146,
+          true
+        ],
+        [
+          0.6814,
+          true
+        ]
+      ],
+      "brier": 0.10150595999999999,
+      "log_score": 0.38360577375527083
+    },
+    {
+      "id": "m023",
+      "question": "Will a major social media platform be banned in the EU in Q4 2025?",
+      "outcome": true,
+      "final_pred": 0.54,
+      "snapshots": [
+        [
+          0.5713,
+          true
+        ],
+        [
+          0.5843,
+          true
+        ],
+        [
+          0.5615,
+          true
+        ],
+        [
+          0.54,
+          true
+        ]
+      ],
+      "brier": 0.21159999999999995,
+      "log_score": 0.616186139423817
+    },
+    {
+      "id": "m024",
+      "question": "Will Tesla's market cap exceed Apple's on Q1 2025?",
+      "outcome": false,
+      "final_pred": 0.4649,
+      "snapshots": [
+        [
+          0.4525,
+          false
+        ],
+        [
+          0.4762,
+          false
+        ],
+        [
+          0.4643,
+          false
+        ],
+        [
+          0.4649,
+          false
+        ]
+      ],
+      "brier": 0.21613200999999999,
+      "log_score": 0.6253016336648781
+    },
+    {
+      "id": "m025",
+      "question": "Will the housing price index rise more than 3% YoY in Q3 2025?",
+      "outcome": true,
+      "final_pred": 0.7605,
+      "snapshots": [
+        [
+          0.7476,
+          true
+        ],
+        [
+          0.7739,
+          true
+        ],
+        [
+          0.7727,
+          true
+        ],
+        [
+          0.7605,
+          true
+        ]
+      ],
+      "brier": 0.05736025000000002,
+      "log_score": 0.27377916728278956
+    },
+    {
+      "id": "m026",
+      "question": "Will the S&P 500 finish the quarter up at least 5%?",
+      "outcome": false,
+      "final_pred": 0.439,
+      "snapshots": [
+        [
+          0.4071,
+          false
+        ],
+        [
+          0.4096,
+          false
+        ],
+        [
+          0.4244,
+          false
+        ],
+        [
+          0.4641,
+          false
+        ],
+        [
+          0.439,
+          false
+        ]
+      ],
+      "brier": 0.192721,
+      "log_score": 0.5780343734594409
+    },
+    {
+      "id": "m027",
+      "question": "Will the S&P 500 close at a new all-time high in Q2 2026?",
+      "outcome": false,
+      "final_pred": 0.438,
+      "snapshots": [
+        [
+          0.4294,
+          false
+        ],
+        [
+          0.4331,
+          false
+        ],
+        [
+          0.4272,
+          false
+        ],
+        [
+          0.438,
+          false
+        ]
+      ],
+      "brier": 0.191844,
+      "log_score": 0.5762534290884459
+    },
+    {
+      "id": "m028",
+      "question": "Will a major drone delivery company go public in Q3 2025?",
+      "outcome": true,
+      "final_pred": 0.8324,
+      "snapshots": [
+        [
+          0.8421,
+          true
+        ],
+        [
+          0.8722,
+          true
+        ],
+        [
+          0.8324,
+          true
+        ]
+      ],
+      "brier": 0.02808975999999999,
+      "log_score": 0.18344218446265767
+    },
+    {
+      "id": "m029",
+      "question": "Will Microsoft close a major acquisition in Q4 2025?",
+      "outcome": false,
+      "final_pred": 0.3542,
+      "snapshots": [
+        [
+          0.37,
+          false
+        ],
+        [
+          0.3322,
+          false
+        ],
+        [
+          0.346,
+          false
+        ],
+        [
+          0.3757,
+          false
+        ],
+        [
+          0.3542,
+          false
+        ]
+      ],
+      "brier": 0.12545764,
+      "log_score": 0.4372654206579623
+    },
+    {
+      "id": "m030",
+      "question": "Will Microsoft close a major acquisition in Q2 2026?",
+      "outcome": true,
+      "final_pred": 0.6454,
+      "snapshots": [
+        [
+          0.6325,
+          true
+        ],
+        [
+          0.67,
+          true
+        ],
+        [
+          0.6053,
+          true
+        ],
+        [
+          0.6245,
+          true
+        ],
+        [
+          0.6454,
+          true
+        ]
+      ],
+      "brier": 0.12574116000000002,
+      "log_score": 0.43788499936427566
+    },
+    {
+      "id": "m031",
+      "question": "Will a major studio cancel a major theatrical release in Q4 2025?",
+      "outcome": true,
+      "final_pred": 0.5768,
+      "snapshots": [
+        [
+          0.5307,
+          true
+        ],
+        [
+          0.5422,
+          true
+        ],
+        [
+          0.5768,
+          true
+        ]
+      ],
+      "brier": 0.17909824000000002,
+      "log_score": 0.5502596930113978
+    },
+    {
+      "id": "m032",
+      "question": "Will a major social media platform be banned in the EU in Q1 2026?",
+      "outcome": true,
+      "final_pred": 0.5956,
+      "snapshots": [
+        [
+          0.6288,
+          true
+        ],
+        [
+          0.6331,
+          true
+        ],
+        [
+          0.5956,
+          true
+        ]
+      ],
+      "brier": 0.16353936,
+      "log_score": 0.5181859781722831
+    },
+    {
+      "id": "m033",
+      "question": "Will there be a US recession by Q3 2024?",
+      "outcome": true,
+      "final_pred": 0.5099,
+      "snapshots": [
+        [
+          0.5282,
+          true
+        ],
+        [
+          0.5306,
+          true
+        ],
+        [
+          0.4915,
+          true
+        ],
+        [
+          0.5099,
+          true
+        ]
+      ],
+      "brier": 0.24019801,
+      "log_score": 0.673540650921027
+    },
+    {
+      "id": "m034",
+      "question": "Will Company X announce a major product launch by Q3 2025?",
+      "outcome": true,
+      "final_pred": 0.6711,
+      "snapshots": [
+        [
+          0.6349,
+          true
+        ],
+        [
+          0.664,
+          true
+        ],
+        [
+          0.6711,
+          true
+        ]
+      ],
+      "brier": 0.10817520999999998,
+      "log_score": 0.3988371218179434
+    },
+    {
+      "id": "m035",
+      "question": "Will OpenAI release a major product in Q1 2025?",
+      "outcome": true,
+      "final_pred": 0.7387,
+      "snapshots": [
+        [
+          0.7863,
+          true
+        ],
+        [
+          0.7371,
+          true
+        ],
+        [
+          0.7387,
+          true
+        ]
+      ],
+      "brier": 0.06827768999999999,
+      "log_score": 0.3028633944474449
+    },
+    {
+      "id": "m036",
+      "question": "Will the S&P 500 close at a new all-time high in Q3 2024?",
+      "outcome": true,
+      "final_pred": 0.8435,
+      "snapshots": [
+        [
+          0.9158,
+          true
+        ],
+        [
+          0.8844,
+          true
+        ],
+        [
+          0.8435,
+          true
+        ]
+      ],
+      "brier": 0.02449224999999999,
+      "log_score": 0.17019537699611403
+    },
+    {
+      "id": "m037",
+      "question": "Will a major pharmaceutical company announce positive Phase 3 results in Q1 2026?",
+      "outcome": false,
+      "final_pred": 0.3468,
+      "snapshots": [
+        [
+          0.3534,
+          false
+        ],
+        [
+          0.4118,
+          false
+        ],
+        [
+          0.3869,
+          false
+        ],
+        [
+          0.3468,
+          false
+        ]
+      ],
+      "brier": 0.12027024,
+      "log_score": 0.425871917885827
+    },
+    {
+      "id": "m038",
+      "question": "Will the unemployment rate drop below 3.5% this month?",
+      "outcome": true,
+      "final_pred": 0.515,
+      "snapshots": [
+        [
+          0.5534,
+          true
+        ],
+        [
+          0.4766,
+          true
+        ],
+        [
+          0.473,
+          true
+        ],
+        [
+          0.5235,
+          true
+        ],
+        [
+          0.515,
+          true
+        ]
+      ],
+      "brier": 0.235225,
+      "log_score": 0.6635883783184009
+    },
+    {
+      "id": "m039",
+      "question": "Will SpaceX complete a Starship orbital flight by Q4 2024?",
+      "outcome": false,
+      "final_pred": 0.3056,
+      "snapshots": [
+        [
+          0.3087,
+          false
+        ],
+        [
+          0.3071,
+          false
+        ],
+        [
+          0.3056,
+          false
+        ]
+      ],
+      "brier": 0.09339135999999999,
+      "log_score": 0.3647071156359966
+    },
+    {
+      "id": "m040",
+      "question": "Will a major AI lab release GPT-5-class model by Q4 2025?",
+      "outcome": true,
+      "final_pred": 0.7685,
+      "snapshots": [
+        [
+          0.8248,
+          true
+        ],
+        [
+          0.8331,
+          true
+        ],
+        [
+          0.8267,
+          true
+        ],
+        [
+          0.7685,
+          true
+        ]
+      ],
+      "brier": 0.053592250000000015,
+      "log_score": 0.26331471600348655
+    },
+    {
+      "id": "m041",
+      "question": "Will a major AI lab release GPT-5-class model by Q4 2024?",
+      "outcome": false,
+      "final_pred": 0.1122,
+      "snapshots": [
+        [
+          0.0778,
+          false
+        ],
+        [
+          0.0794,
+          false
+        ],
+        [
+          0.1122,
+          false
+        ]
+      ],
+      "brier": 0.012588839999999999,
+      "log_score": 0.11900878658220215
+    },
+    {
+      "id": "m042",
+      "question": "Will a quantum computing company demonstrate quantum advantage in Q2 2024?",
+      "outcome": true,
+      "final_pred": 0.751,
+      "snapshots": [
+        [
+          0.7762,
+          true
+        ],
+        [
+          0.7667,
+          true
+        ],
+        [
+          0.7894,
+          true
+        ],
+        [
+          0.751,
+          true
+        ]
+      ],
+      "brier": 0.062001,
+      "log_score": 0.28634962721800233
+    },
+    {
+      "id": "m043",
+      "question": "Will the housing price index rise more than 3% YoY in Q3 2025?",
+      "outcome": true,
+      "final_pred": 0.5769,
+      "snapshots": [
+        [
+          0.611,
+          true
+        ],
+        [
+          0.6589,
+          true
+        ],
+        [
+          0.5769,
+          true
+        ]
+      ],
+      "brier": 0.17901361000000002,
+      "log_score": 0.5500863377192934
+    },
+    {
+      "id": "m044",
+      "question": "Will a hurricane make US landfall in Q3 2024?",
+      "outcome": true,
+      "final_pred": 0.5656,
+      "snapshots": [
+        [
+          0.5999,
+          true
+        ],
+        [
+          0.5583,
+          true
+        ],
+        [
+          0.5656,
+          true
+        ]
+      ],
+      "brier": 0.18870336000000001,
+      "log_score": 0.5698681643997741
+    },
+    {
+      "id": "m045",
+      "question": "Will COP29 produce a binding emissions agreement?",
+      "outcome": false,
+      "final_pred": 0.2211,
+      "snapshots": [
+        [
+          0.2007,
+          false
+        ],
+        [
+          0.2013,
+          false
+        ],
+        [
+          0.1727,
+          false
+        ],
+        [
+          0.2211,
+          false
+        ]
+      ],
+      "brier": 0.04888521,
+      "log_score": 0.24987261105623415
+    },
+    {
+      "id": "m046",
+      "question": "Will a major streaming service launch a price hike this year?",
+      "outcome": true,
+      "final_pred": 0.8347,
+      "snapshots": [
+        [
+          0.9133,
+          true
+        ],
+        [
+          0.9117,
+          true
+        ],
+        [
+          0.8734,
+          true
+        ],
+        [
+          0.8347,
+          true
+        ]
+      ],
+      "brier": 0.027324090000000002,
+      "log_score": 0.18068290012544608
+    },
+    {
+      "id": "m047",
+      "question": "Will Tesla's market cap exceed Apple's on Q4 2025?",
+      "outcome": false,
+      "final_pred": 0.2769,
+      "snapshots": [
+        [
+          0.2478,
+          false
+        ],
+        [
+          0.2474,
+          false
+        ],
+        [
+          0.2665,
+          false
+        ],
+        [
+          0.2336,
+          false
+        ],
+        [
+          0.2769,
+          false
+        ]
+      ],
+      "brier": 0.07667360999999999,
+      "log_score": 0.3242077538012308
+    },
+    {
+      "id": "m048",
+      "question": "Will SpaceX complete a Starship orbital flight by Q2 2025?",
+      "outcome": false,
+      "final_pred": 0.1385,
+      "snapshots": [
+        [
+          0.1061,
+          false
+        ],
+        [
+          0.1621,
+          false
+        ],
+        [
+          0.1385,
+          false
+        ]
+      ],
+      "brier": 0.019182250000000005,
+      "log_score": 0.14908022301415283
+    },
+    {
+      "id": "m049",
+      "question": "Will Microsoft close a major acquisition in Q1 2025?",
+      "outcome": false,
+      "final_pred": 0.2138,
+      "snapshots": [
+        [
+          0.1986,
+          false
+        ],
+        [
+          0.2031,
+          false
+        ],
+        [
+          0.2138,
+          false
+        ]
+      ],
+      "brier": 0.04571044,
+      "log_score": 0.24054406599437708
+    },
+    {
+      "id": "m050",
+      "question": "Will an EV startup file for bankruptcy in Q2 2025?",
+      "outcome": false,
+      "final_pred": 0.3181,
+      "snapshots": [
+        [
+          0.35,
+          false
+        ],
+        [
+          0.3164,
+          false
+        ],
+        [
+          0.3181,
+          false
+        ]
+      ],
+      "brier": 0.10118761,
+      "log_score": 0.38287225945552994
+    },
+    {
+      "id": "m051",
+      "question": "Will the average 30Y mortgage rate drop below 6% in Q4 2025?",
+      "outcome": false,
+      "final_pred": 0.4648,
+      "snapshots": [
+        [
+          0.4499,
+          false
+        ],
+        [
+          0.4533,
+          false
+        ],
+        [
+          0.4449,
+          false
+        ],
+        [
+          0.4607,
+          false
+        ],
+        [
+          0.4648,
+          false
+        ]
+      ],
+      "brier": 0.21603904,
+      "log_score": 0.6251147701681183
+    },
+    {
+      "id": "m052",
+      "question": "Will a new COVID variant cause travel restrictions in Q3 2025?",
+      "outcome": false,
+      "final_pred": 0.3808,
+      "snapshots": [
+        [
+          0.371,
+          false
+        ],
+        [
+          0.3708,
+          false
+        ],
+        [
+          0.3943,
+          false
+        ],
+        [
+          0.383,
+          false
+        ],
+        [
+          0.3808,
+          false
+        ]
+      ],
+      "brier": 0.14500864000000002,
+      "log_score": 0.47932695670661973
+    },
+    {
+      "id": "m053",
+      "question": "Will a deep-sea mining company begin commercial operations in Q2 2025?",
+      "outcome": false,
+      "final_pred": 0.2011,
+      "snapshots": [
+        [
+          0.0979,
+          false
+        ],
+        [
+          0.1571,
+          false
+        ],
+        [
+          0.1909,
+          false
+        ],
+        [
+          0.2011,
+          false
+        ]
+      ],
+      "brier": 0.04044121,
+      "log_score": 0.22451949749414088
+    },
+    {
+      "id": "m054",
+      "question": "Will there be a US recession by Q1 2024?",
+      "outcome": true,
+      "final_pred": 0.575,
+      "snapshots": [
+        [
+          0.5748,
+          true
+        ],
+        [
+          0.5997,
+          true
+        ],
+        [
+          0.5813,
+          true
+        ],
+        [
+          0.575,
+          true
+        ]
+      ],
+      "brier": 0.18062500000000004,
+      "log_score": 0.5533852381847867
+    },
+    {
+      "id": "m055",
+      "question": "Will a major drone delivery company go public in Q4 2025?",
+      "outcome": false,
+      "final_pred": 0.467,
+      "snapshots": [
+        [
+          0.4871,
+          false
+        ],
+        [
+          0.4772,
+          false
+        ],
+        [
+          0.467,
+          false
+        ]
+      ],
+      "brier": 0.21808900000000003,
+      "log_score": 0.6292338548162927
+    },
+    {
+      "id": "m056",
+      "question": "Will the average 30Y mortgage rate drop below 6% in Q1 2024?",
+      "outcome": false,
+      "final_pred": 0.0867,
+      "snapshots": [
+        [
+          0.1082,
+          false
+        ],
+        [
+          0.0737,
+          false
+        ],
+        [
+          0.0798,
+          false
+        ],
+        [
+          0.0935,
+          false
+        ],
+        [
+          0.0867,
+          false
+        ]
+      ],
+      "brier": 0.00751689,
+      "log_score": 0.09069086528450379
+    },
+    {
+      "id": "m057",
+      "question": "Will the average 30Y mortgage rate drop below 6% in Q2 2025?",
+      "outcome": true,
+      "final_pred": 0.6674,
+      "snapshots": [
+        [
+          0.6831,
+          true
+        ],
+        [
+          0.6718,
+          true
+        ],
+        [
+          0.6799,
+          true
+        ],
+        [
+          0.6674,
+          true
+        ]
+      ],
+      "brier": 0.11062276,
+      "log_score": 0.40436571266486343
+    },
+    {
+      "id": "m058",
+      "question": "Will a major pharmaceutical company announce positive Phase 3 results in Q3 2025?",
+      "outcome": false,
+      "final_pred": 0.4758,
+      "snapshots": [
+        [
+          0.4693,
+          false
+        ],
+        [
+          0.473,
+          false
+        ],
+        [
+          0.4657,
+          false
+        ],
+        [
+          0.4758,
+          false
+        ]
+      ],
+      "brier": 0.22638564,
+      "log_score": 0.645881988092831
+    },
+    {
+      "id": "m059",
+      "question": "Will a major AI lab release GPT-5-class model by Q4 2025?",
+      "outcome": false,
+      "final_pred": 0.4613,
+      "snapshots": [
+        [
+          0.4197,
+          false
+        ],
+        [
+          0.455,
+          false
+        ],
+        [
+          0.4612,
+          false
+        ],
+        [
+          0.4613,
+          false
+        ]
+      ],
+      "brier": 0.21279768999999998,
+      "log_score": 0.618596449295649
+    },
+    {
+      "id": "m060",
+      "question": "Will the VIX index exceed 30 at any point in Q3 2025?",
+      "outcome": false,
+      "final_pred": 0.2014,
+      "snapshots": [
+        [
+          0.1207,
+          false
+        ],
+        [
+          0.1592,
+          false
+        ],
+        [
+          0.1957,
+          false
+        ],
+        [
+          0.2014,
+          false
+        ]
+      ],
+      "brier": 0.04056196,
+      "log_score": 0.22489508435301614
+    }
+  ],
+  "per_market_summary": {
+    "mean_brier": 0.12252863700000001,
+    "median_brier": 0.11567956500000001,
+    "mean_log_score": 0.41354255045528254
+  },
+  "raw": {
+    "n": 231,
+    "brier": 0.1226778032034632,
+    "log_score": 0.41195315742809,
+    "ece": 0.3034242424242424,
+    "mce": 0.41694117647058826,
+    "bins": [
+      {
+        "index": 0,
+        "lower": 0.0,
+        "upper": 0.1,
+        "confidence": 0.07823333333333334,
+        "accuracy": 0.0,
+        "count": 12
+      },
+      {
+        "index": 1,
+        "lower": 0.1,
+        "upper": 0.2,
+        "confidence": 0.15821666666666664,
+        "accuracy": 0.0,
+        "count": 18
+      },
+      {
+        "index": 2,
+        "lower": 0.2,
+        "upper": 0.30000000000000004,
+        "confidence": 0.229325,
+        "accuracy": 0.0,
+        "count": 20
+      },
+      {
+        "index": 3,
+        "lower": 0.30000000000000004,
+        "upper": 0.4,
+        "confidence": 0.35438,
+        "accuracy": 0.0,
+        "count": 30
+      },
+      {
+        "index": 4,
+        "lower": 0.4,
+        "upper": 0.5,
+        "confidence": 0.4530625,
+        "accuracy": 0.07142857142857142,
+        "count": 56
+      },
+      {
+        "index": 5,
+        "lower": 0.5,
+        "upper": 0.6000000000000001,
+        "confidence": 0.5536470588235294,
+        "accuracy": 0.9705882352941176,
+        "count": 34
+      },
+      {
+        "index": 6,
+        "lower": 0.6000000000000001,
+        "upper": 0.7000000000000001,
+        "confidence": 0.65676,
+        "accuracy": 1.0,
+        "count": 25
+      },
+      {
+        "index": 7,
+        "lower": 0.7000000000000001,
+        "upper": 0.8,
+        "confidence": 0.7558052631578948,
+        "accuracy": 1.0,
+        "count": 19
+      },
+      {
+        "index": 8,
+        "lower": 0.8,
+        "upper": 0.9,
+        "confidence": 0.8529285714285715,
+        "accuracy": 1.0,
+        "count": 14
+      },
+      {
+        "index": 9,
+        "lower": 0.9,
+        "upper": 1.0,
+        "confidence": 0.9136000000000001,
+        "accuracy": 1.0,
+        "count": 3
+      }
+    ]
+  },
+  "platt": {
+    "n": 231,
+    "brier": 0.01755576840802317,
+    "log_score": 0.057290496448287535,
+    "ece": 0.015164059935519317,
+    "mce": 0.4037095233591802,
+    "params": {
+      "a": 25.936173587205545,
+      "b": 0.41924196102976474
+    },
+    "bins": [
+      {
+        "index": 0,
+        "lower": 0.0,
+        "upper": 0.1,
+        "confidence": 0.0067090254795599755,
+        "accuracy": 0.008064516129032258,
+        "count": 124
+      },
+      {
+        "index": 1,
+        "lower": 0.1,
+        "upper": 0.2,
+        "confidence": 0.11663938655965755,
+        "accuracy": 0.25,
+        "count": 4
+      },
+      {
+        "index": 2,
+        "lower": 0.2,
+        "upper": 0.30000000000000004,
+        "confidence": 0.2591462109476797,
+        "accuracy": 0.0,
+        "count": 3
+      },
+      {
+        "index": 3,
+        "lower": 0.30000000000000004,
+        "upper": 0.4,
+        "confidence": 0.38274401106099465,
+        "accuracy": 0.5,
+        "count": 4
+      },
+      {
+        "index": 4,
+        "lower": 0.4,
+        "upper": 0.5,
+        "confidence": 0.4037095233591802,
+        "accuracy": 0.0,
+        "count": 1
+      },
+      {
+        "index": 5,
+        "lower": 0.5,
+        "upper": 0.6000000000000001,
+        "confidence": NaN,
+        "accuracy": NaN,
+        "count": 0
+      },
+      {
+        "index": 6,
+        "lower": 0.6000000000000001,
+        "upper": 0.7000000000000001,
+        "confidence": NaN,
+        "accuracy": NaN,
+        "count": 0
+      },
+      {
+        "index": 7,
+        "lower": 0.7000000000000001,
+        "upper": 0.8,
+        "confidence": 0.743166488536752,
+        "accuracy": 1.0,
+        "count": 1
+      },
+      {
+        "index": 8,
+        "lower": 0.8,
+        "upper": 0.9,
+        "confidence": 0.8567686783087805,
+        "accuracy": 0.6666666666666666,
+        "count": 3
+      },
+      {
+        "index": 9,
+        "lower": 0.9,
+        "upper": 1.0,
+        "confidence": 0.9964387535207324,
+        "accuracy": 1.0,
+        "count": 91
+      }
+    ]
+  },
+  "isotonic": {
+    "n": 231,
+    "brier": 0.012007162161397883,
+    "log_score": 0.036601044532691786,
+    "ece": 0.012735270557380772,
+    "mce": 0.6136363636363638,
+    "n_breakpoints": 228
+  }
+}

@@ -1,0 +1,1645 @@
+{
+  "markets": [
+    {
+      "id": "m001",
+      "question": "Will Microsoft close a major acquisition in Q4 2024?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.3315,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 25,
+          "predicted_prob": 0.3571,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 19,
+          "predicted_prob": 0.3697,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 13,
+          "predicted_prob": 0.3168,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 7,
+          "predicted_prob": 0.3488,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.3178
+    },
+    {
+      "id": "m002",
+      "question": "Will the VIX index exceed 30 at any point in Q1 2026?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.4408,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.4166,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.4689,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.4535
+    },
+    {
+      "id": "m003",
+      "question": "Will a hurricane make US landfall in Q3 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.0534,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.0774,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.084,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.0041
+    },
+    {
+      "id": "m004",
+      "question": "Will US retail sales exceed consensus estimate in Q3 2025?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.5594,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.5765,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.5824,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.5774,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.5744
+    },
+    {
+      "id": "m005",
+      "question": "Will Tesla's market cap exceed Apple's on Q1 2024?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.5062,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.5282,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.4905,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.5207
+    },
+    {
+      "id": "m006",
+      "question": "Will Tesla deliver more than 500000 vehicles this quarter?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.8954,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.8884,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.8401,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.8498,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.9411
+    },
+    {
+      "id": "m007",
+      "question": "Will the housing price index rise more than 3% YoY in Q2 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.16,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.204,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.1689,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.1938,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.1166
+    },
+    {
+      "id": "m008",
+      "question": "Will a major streaming service launch a price hike this year?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.3976,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.388,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.3834,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.3616,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.3781
+    },
+    {
+      "id": "m009",
+      "question": "Will a major pharmaceutical company announce positive Phase 3 results in Q2 2026?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.1935,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.2546,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.2408,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.2125,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.1855
+    },
+    {
+      "id": "m010",
+      "question": "Will the 10Y Treasury yield be above 5% on Q1 2024?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.2749,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.246,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.3096,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.2337
+    },
+    {
+      "id": "m011",
+      "question": "Will a major streaming service launch a price hike this year?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.4682,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.4644,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.4917,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.4917,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.4724
+    },
+    {
+      "id": "m012",
+      "question": "Will Bitcoin close above $100000 on Q3 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.4538,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 25,
+          "predicted_prob": 0.3963,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 19,
+          "predicted_prob": 0.4031,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 13,
+          "predicted_prob": 0.4161,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 7,
+          "predicted_prob": 0.4369,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.407
+    },
+    {
+      "id": "m013",
+      "question": "Will Microsoft close a major acquisition in Q1 2026?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.4296,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 25,
+          "predicted_prob": 0.4922,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 19,
+          "predicted_prob": 0.4834,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 13,
+          "predicted_prob": 0.5154,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 7,
+          "predicted_prob": 0.4868,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.4899
+    },
+    {
+      "id": "m014",
+      "question": "Will Company X announce a major product launch by Q2 2024?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.6588,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.6397,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.6197,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.6667,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.6821
+    },
+    {
+      "id": "m015",
+      "question": "Will Company X announce a major product launch by Q4 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.0416,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.0936,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.111,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.0128
+    },
+    {
+      "id": "m016",
+      "question": "Will a major drone delivery company go public in Q2 2024?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.5452,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 25,
+          "predicted_prob": 0.5477,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 19,
+          "predicted_prob": 0.5196,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 13,
+          "predicted_prob": 0.535,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 7,
+          "predicted_prob": 0.5365,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.5535
+    },
+    {
+      "id": "m017",
+      "question": "Will Ethereum successfully complete a major protocol upgrade by Q4 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.4595,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.4348,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.4634,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.4506,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.4368
+    },
+    {
+      "id": "m018",
+      "question": "Will US retail sales exceed consensus estimate in Q3 2024?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.2207,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.2183,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.1987,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.166
+    },
+    {
+      "id": "m019",
+      "question": "Will a major drone delivery company go public in Q1 2024?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.4346,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.4231,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.4022,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.4098
+    },
+    {
+      "id": "m020",
+      "question": "Will a generic LLM model beat GPT-4 on a major benchmark in Q1 2025?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.6958,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.7131,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.7417,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.7565
+    },
+    {
+      "id": "m021",
+      "question": "Will an autonomous taxi service operate commercially in 3+ cities in Q3 2025?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.7573,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.7569,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.7492,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.7589,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.7887
+    },
+    {
+      "id": "m022",
+      "question": "Will a generic LLM model beat GPT-4 on a major benchmark in Q1 2026?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.687,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 25,
+          "predicted_prob": 0.6917,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 19,
+          "predicted_prob": 0.6965,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 13,
+          "predicted_prob": 0.7146,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 7,
+          "predicted_prob": 0.6814,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.7274
+    },
+    {
+      "id": "m023",
+      "question": "Will a major social media platform be banned in the EU in Q4 2025?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.5713,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.5843,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.5615,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.54,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.5607
+    },
+    {
+      "id": "m024",
+      "question": "Will Tesla's market cap exceed Apple's on Q1 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.4525,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.4762,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.4643,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.4649,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.4731
+    },
+    {
+      "id": "m025",
+      "question": "Will the housing price index rise more than 3% YoY in Q3 2025?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.7476,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.7739,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.7727,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.7605,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.8164
+    },
+    {
+      "id": "m026",
+      "question": "Will the S&P 500 finish the quarter up at least 5%?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.4071,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 25,
+          "predicted_prob": 0.4096,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 19,
+          "predicted_prob": 0.4244,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 13,
+          "predicted_prob": 0.4641,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 7,
+          "predicted_prob": 0.439,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.4196
+    },
+    {
+      "id": "m027",
+      "question": "Will the S&P 500 close at a new all-time high in Q2 2026?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.4294,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.4331,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.4272,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.438,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.4244
+    },
+    {
+      "id": "m028",
+      "question": "Will a major drone delivery company go public in Q3 2025?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.8421,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.8722,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.8324,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.9132
+    },
+    {
+      "id": "m029",
+      "question": "Will Microsoft close a major acquisition in Q4 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.37,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 25,
+          "predicted_prob": 0.3322,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 19,
+          "predicted_prob": 0.346,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 13,
+          "predicted_prob": 0.3757,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 7,
+          "predicted_prob": 0.3542,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.3206
+    },
+    {
+      "id": "m030",
+      "question": "Will Microsoft close a major acquisition in Q2 2026?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.6325,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 25,
+          "predicted_prob": 0.67,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 19,
+          "predicted_prob": 0.6053,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 13,
+          "predicted_prob": 0.6245,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 7,
+          "predicted_prob": 0.6454,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.6422
+    },
+    {
+      "id": "m031",
+      "question": "Will a major studio cancel a major theatrical release in Q4 2025?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.5307,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.5422,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.5768,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.557
+    },
+    {
+      "id": "m032",
+      "question": "Will a major social media platform be banned in the EU in Q1 2026?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.6288,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.6331,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.5956,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.6531
+    },
+    {
+      "id": "m033",
+      "question": "Will there be a US recession by Q3 2024?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.5282,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.5306,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.4915,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.5099,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.5107
+    },
+    {
+      "id": "m034",
+      "question": "Will Company X announce a major product launch by Q3 2025?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.6349,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.664,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.6711,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.6714
+    },
+    {
+      "id": "m035",
+      "question": "Will OpenAI release a major product in Q1 2025?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.7863,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.7371,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.7387,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.821
+    },
+    {
+      "id": "m036",
+      "question": "Will the S&P 500 close at a new all-time high in Q3 2024?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.9158,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.8844,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.8435,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.9811
+    },
+    {
+      "id": "m037",
+      "question": "Will a major pharmaceutical company announce positive Phase 3 results in Q1 2026?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.3534,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.4118,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.3869,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.3468,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.3305
+    },
+    {
+      "id": "m038",
+      "question": "Will the unemployment rate drop below 3.5% this month?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.5534,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 25,
+          "predicted_prob": 0.4766,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 19,
+          "predicted_prob": 0.473,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 13,
+          "predicted_prob": 0.5235,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 7,
+          "predicted_prob": 0.515,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.5146
+    },
+    {
+      "id": "m039",
+      "question": "Will SpaceX complete a Starship orbital flight by Q4 2024?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.3087,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.3071,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.3056,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.2429
+    },
+    {
+      "id": "m040",
+      "question": "Will a major AI lab release GPT-5-class model by Q4 2025?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.8248,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.8331,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.8267,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.7685,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.8596
+    },
+    {
+      "id": "m041",
+      "question": "Will a major AI lab release GPT-5-class model by Q4 2024?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.0778,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.0794,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.1122,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.0076
+    },
+    {
+      "id": "m042",
+      "question": "Will a quantum computing company demonstrate quantum advantage in Q2 2024?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.7762,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.7667,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.7894,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.751,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.8232
+    },
+    {
+      "id": "m043",
+      "question": "Will the housing price index rise more than 3% YoY in Q3 2025?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.611,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.6589,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.5769,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.6424
+    },
+    {
+      "id": "m044",
+      "question": "Will a hurricane make US landfall in Q3 2024?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.5999,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.5583,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.5656,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.6024
+    },
+    {
+      "id": "m045",
+      "question": "Will COP29 produce a binding emissions agreement?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.2007,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.2013,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.1727,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.2211,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.1299
+    },
+    {
+      "id": "m046",
+      "question": "Will a major streaming service launch a price hike this year?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.9133,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.9117,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.8734,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.8347,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.9571
+    },
+    {
+      "id": "m047",
+      "question": "Will Tesla's market cap exceed Apple's on Q4 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.2478,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 25,
+          "predicted_prob": 0.2474,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 19,
+          "predicted_prob": 0.2665,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 13,
+          "predicted_prob": 0.2336,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 7,
+          "predicted_prob": 0.2769,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.2113
+    },
+    {
+      "id": "m048",
+      "question": "Will SpaceX complete a Starship orbital flight by Q2 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.1061,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.1621,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.1385,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.0589
+    },
+    {
+      "id": "m049",
+      "question": "Will Microsoft close a major acquisition in Q1 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.1986,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.2031,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.2138,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.1502
+    },
+    {
+      "id": "m050",
+      "question": "Will an EV startup file for bankruptcy in Q2 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.35,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.3164,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.3181,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.2995
+    },
+    {
+      "id": "m051",
+      "question": "Will the average 30Y mortgage rate drop below 6% in Q4 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.4499,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 25,
+          "predicted_prob": 0.4533,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 19,
+          "predicted_prob": 0.4449,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 13,
+          "predicted_prob": 0.4607,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 7,
+          "predicted_prob": 0.4648,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.4408
+    },
+    {
+      "id": "m052",
+      "question": "Will a new COVID variant cause travel restrictions in Q3 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.371,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 25,
+          "predicted_prob": 0.3708,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 19,
+          "predicted_prob": 0.3943,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 13,
+          "predicted_prob": 0.383,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 7,
+          "predicted_prob": 0.3808,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.3584
+    },
+    {
+      "id": "m053",
+      "question": "Will a deep-sea mining company begin commercial operations in Q2 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.0979,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.1571,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.1909,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.2011,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.091
+    },
+    {
+      "id": "m054",
+      "question": "Will there be a US recession by Q1 2024?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.5748,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.5997,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.5813,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.575,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.604
+    },
+    {
+      "id": "m055",
+      "question": "Will a major drone delivery company go public in Q4 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.4871,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 21,
+          "predicted_prob": 0.4772,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 11,
+          "predicted_prob": 0.467,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.4651
+    },
+    {
+      "id": "m056",
+      "question": "Will the average 30Y mortgage rate drop below 6% in Q1 2024?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.1082,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 25,
+          "predicted_prob": 0.0737,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 19,
+          "predicted_prob": 0.0798,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 13,
+          "predicted_prob": 0.0935,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 7,
+          "predicted_prob": 0.0867,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.0163
+    },
+    {
+      "id": "m057",
+      "question": "Will the average 30Y mortgage rate drop below 6% in Q2 2025?",
+      "outcome": true,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.6831,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.6718,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.6799,
+          "resolved": true
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.6674,
+          "resolved": true
+        }
+      ],
+      "p_true": 0.6882
+    },
+    {
+      "id": "m058",
+      "question": "Will a major pharmaceutical company announce positive Phase 3 results in Q3 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.4693,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.473,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.4657,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.4758,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.4845
+    },
+    {
+      "id": "m059",
+      "question": "Will a major AI lab release GPT-5-class model by Q4 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.4197,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.455,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.4612,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.4613,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.445
+    },
+    {
+      "id": "m060",
+      "question": "Will the VIX index exceed 30 at any point in Q3 2025?",
+      "outcome": false,
+      "calibration_data": [
+        {
+          "time_to_close_days": 31,
+          "predicted_prob": 0.1207,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 24,
+          "predicted_prob": 0.1592,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 16,
+          "predicted_prob": 0.1957,
+          "resolved": false
+        },
+        {
+          "time_to_close_days": 8,
+          "predicted_prob": 0.2014,
+          "resolved": false
+        }
+      ],
+      "p_true": 0.0924
+    }
+  ],
+  "metadata": {
+    "seed": 424242,
+    "n_markets": 60,
+    "calibration_bias": "predictions pushed toward extremes (overconfident)",
+    "note": "Synthetic data; deliberately miscalibrated so recalibration step has work to do"
+  }
+}

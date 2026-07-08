@@ -1,0 +1,21 @@
+
+============================================================================
+PREDICTION-MARKET CALIBRATION — HEADLINE
+============================================================================
+Market overconfidence exposed: raw Brier 0.1227 -> isotonic Brier 0.0120 (improvement -90.2%); raw ECE 0.303 -> recalibrated ECE 0.013
+Source: embedded_sample · N=60 markets, 231 (snapshot, outcome) points
+
+----------------------------------------------------------------------------
+PRE / POST RECALIBRATION (snapshot-level)
+----------------------------------------------------------------------------
+  Metric            Raw      Platt   Isotonic   dPlatt %     dIso %
+  Brier          0.1227     0.0176     0.0120     -85.7%     -90.2%
+  ECE            0.3034     0.0152     0.0127     -95.0%     -95.8%
+  MCE            0.4169     0.4037     0.6136      —       —
+  LogLoss        0.4120     0.0573     0.0366      —       —
+
+Per-market summary:
+  Mean per-market Brier: 0.1225
+  Median per-market Brier: 0.1157
+  Mean per-market log score: 0.4135
+============================================================================
